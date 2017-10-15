@@ -1,0 +1,11 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+function truncate($text, $chars = 120) {
+    if(strlen($text) > $chars) {
+        $text = $text.' ';
+        $text = substr($text, 0, $chars);
+        $text = substr($text, 0, strrpos($text ,' '));
+        $text = $text.'...';
+    }
+    return $text;
+}
