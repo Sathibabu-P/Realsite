@@ -17,7 +17,7 @@
 |  facebook_auth_on_load         boolean  Set to TRUE to check for valid access token on every page load.
 */
 $config['facebook_app_id']              = '1271084616274318';
-$config['facebook_app_secret']          = '';
+$config['facebook_app_secret']          = '152c45c97312b995513c09046874d285';
 $config['facebook_login_type']          = 'web';
 $config['facebook_login_redirect_url']  = 'users/facebook';
 $config['facebook_logout_redirect_url'] = 'users/logout';
